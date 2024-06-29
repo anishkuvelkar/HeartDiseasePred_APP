@@ -64,7 +64,7 @@ def main() :
         st.write(f"Number of Major Vessels Colored by Fluoroscopy: {ca}")
         st.write(f"Thalassemia: {thal[0]}")
         st.success("Your inputs have been successfully recorded!")
-        diagnosis = diabetes_prediction([age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal])
+        diagnosis = diabetes_prediction([[age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal]])
         st.success(diagnosis)
         
 if __name__ == "__main__":
