@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 #Loading a saved model
-loaded_model = pickle.load(open("C:/Users/Dell/Downloads/HARDDISK/Syracuse/ML/projects/ML/trained_model.sav", 'rb'))
+loaded_model = pickle.load(open("trained_model.sav", 'rb'))
 
 def diabetes_prediction(input_data):
 
