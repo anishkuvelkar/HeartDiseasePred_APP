@@ -13,7 +13,6 @@ import streamlit as st
 loaded_model = pickle.load(open("C:/Users/Dell/Downloads/HARDDISK/Syracuse/ML/projects/ML/trained_model.sav", 'rb'))
 
 def diabetes_prediction(input_data):
-    input_data = (62,0,0,140,268,0,0,160,0,3.6,0,2,2)
 
     # change the input data to a numpy array
     input_data_as_numpy_array= np.asarray(input_data)
