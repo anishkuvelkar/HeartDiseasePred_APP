@@ -40,7 +40,7 @@ def main():
     exang = st.selectbox("Do you experience exercise-induced angina?", options=["Yes", "No"])
     oldpeak = st.number_input("What is the value of ST depression induced by exercise relative to rest?", min_value=0.0, max_value=10.0, step=0.1)
     slope = st.selectbox("What is the slope of the peak exercise ST segment?", options=["Upsloping", "Flat", "Downsloping"])
-    ca = st.selectbox("How many major vessels (0-3) are colored by fluoroscopy?", options=[0, 1, 2, 3])
+    ca = st.selectbox("How many major vessels (0-3) are colored by fluoroscopy?", options=[0, 1, 2, 3, 4])
     thal = st.selectbox("What is your thalassemia status?", options=["Normal", "Fixed defect", "Reversible defect"])
 
     # Button to submit the form
